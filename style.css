@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Waterfall&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+body,
+html {
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align : center;
+    
+
+}
+
+.background{
+    background-image: url('hacker-python.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    min-height: 100vh;
+    z-index: -1;
+    filter: blur(8px);
+}
+
+.mainContainer h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    padding    : 5px 0px 10px 0px;
+    color      : #0dff00;
+    text-shadow: 0 0 15px #ff0000;
+}
+
+.mainContainer h1:hover {
+    text-shadow: 0 0 14px #fc6100;
+
+}
+
+.container .teamName {
+    text-transform: uppercase;
+    padding       : 10px 0px;
+    letter-spacing: 20px;
+    font-family   : 'Josefin Sans', sans-serif;
+    color         : #0ae7d5;
+    font-size     : 17px;
+}
+
+.container .teamName span {
+    color: red;
+}
+
+.hr {
+    width : 600px;
+    border: 2px solid #292b2983;
+}
+
+.mainImage {
+    margin       : 20px 0px;
+    width        : 200px;
+    border       : 3px solid rgba(10, 34, 249, 0.774);
+    border-radius: 50%;
+    box-shadow   : 0px 0px 60px #0379f7;
+
+}
+
+.mainImage:hover {
+    box-shadow: 0px 0px 19px #0c0c8a;
+}
+
+.mainContainer {
+    text-shadow: 2px 2px 2px 2px green;
+}
+
+.text1 {
+    padding       : 5px 200px;
+    text-transform: uppercase;
+    color         : rgb(2, 194, 208);
+
+}
+
+
+.textbox {
+    background-color: #80a1fb;
+    color           : #000000;
+    font-size       : 17px;
+    border-radius   : 20px;
+    padding         : 10px 0px;
+    border          : none;
+    text-align      : center;
+}
+
+.text2 {
+    color         : #ffffff;
+    font-size     : 15px;
+    letter-spacing: 5px;
+    font-family   : 'Waterfall', cursive;
+}
+
+@media only screen and (max-width:500px) {
+
+    .text1 {
+        padding       : 0px 20px;
+        text-transform: uppercase;
+        color         : #00b92e;
+    }
+
+    .effect2 {
+        font-size  : 17px;
+        padding-top: 1px;
+    }
+
+    .container .teamName {
+        padding       : 10px 0px;
+        letter-spacing: 12px;
+        font-size     : 14px;
+    }
+
+    .mainContainer h1 {
+        padding: 2px 0px;
+    }
+
+    .textbox {
+
+        font-size: 13px;
+        width    : 300px;
+    }
+
+    .hr {
+        width: 300px;
+    }
+
+    .text2 {
+        color         : #ffffff;
+        font-size     : 17px;
+        letter-spacing: 4px;
+        font-family   : 'Waterfall', cursive;
+    }
+}
